@@ -5,6 +5,8 @@ kind: Deployment
 metadata:
 
   name: nginx-deployment
+  
+  namespace: prod
 
   labels:
 
