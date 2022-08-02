@@ -5,6 +5,7 @@ kind: Service
 metadata:
 
   name: my-nginx-service
+  namespace: prod
 
 spec:
 
