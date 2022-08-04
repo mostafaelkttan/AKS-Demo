@@ -8,11 +8,11 @@ metadata:
 
 spec:
   rules:
-    - host: agoraaksdev.agoraapi.com
+    - host: 40.67.188.187
       http:
         paths:
           - path: /
-            pathType: Prefix
+            pathType: Exact
             backend:
               service:
                 name:  my-nginx-service
