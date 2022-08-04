@@ -8,7 +8,7 @@ metadata:
 
 spec:
   rules:
-    - host: 40.67.188.187
+    - host: agoraaksdev.agoraapi.com
       http:
         paths:
           - path: /
